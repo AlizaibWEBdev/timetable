@@ -1,0 +1,82 @@
+/* Styles for the body to add background color */
+body {
+    background-color: #f0f0f0; /* Background color for the body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Styles for the container to center the card */
+.container {
+    background-color: #fff; /* Background color for the card container */
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for the navigation buttons */
+.navigation-button {
+    width: 40px;
+    height: 40px;
+    background-color: #0073e6;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+.navigation-button.previous {
+    left: 10px;
+    transform: translateY(-50%);
+}
+.navigation-button.previous:hover{
+    background-color: red;
+}
+.entry{
+    text-align: center;
+    
+}
+.navigation-button.next {
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+/* Additional styles for the card content */
+.class-card h3 {
+        margin: 0;
+        font-size: 30px;
+        color: #333;
+        text-align: start;
+        font-weight: 400;
+}
+
+.class-details {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.class-details p {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
+    text-align: start;
+}
+span{
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
