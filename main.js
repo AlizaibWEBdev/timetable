@@ -4,13 +4,19 @@ const data = {
             "class": "lab#3",
             "time": "5:00 to 7:00",
             "code": "2309e"
-        }
+        },
+       
     ],
     "Tuesday": [
         {
             "class": "lab#4",
             "time": "3:00 to 5:00",
             "code": "2311d"
+        },
+        {
+            "class": "lab#3",
+            "time": "1:00 to 3:00",
+            "code": "2309c" 
         }
     ],
     "Wednesday": [
@@ -26,10 +32,10 @@ const data = {
             "time": "3:00 to 5:00",
             "code": "2311d"
         },
-        {
+         {
             "class": "lab#3",
-            "time": "5:00 to 7:00",
-            "code": "2309e"
+            "time": "1:00 to 3:00",
+            "code": "2309c" 
         }
 
     ],
@@ -45,6 +51,11 @@ const data = {
             "class": "lab#4",
             "time": "3:00 to 5:00",
             "code": "2311d"
+        },
+         {
+            "class": "lab#3",
+            "time": "1:00 to 3:00",
+            "code": "2309c" 
         }
     ],
     "Sunday": [
